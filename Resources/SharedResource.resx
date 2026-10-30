@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>HK Portal Management Center</value></data>
+  <data name="Articles" xml:space="preserve"><value>Article management</value></data>
+  <data name="Category" xml:space="preserve"><value>Category</value></data>
+  <data name="AllCategories" xml:space="preserve"><value>All categories</value></data>
+  <data name="Status" xml:space="preserve"><value>Status</value></data>
+  <data name="AllStatuses" xml:space="preserve"><value>All statuses</value></data>
+  <data name="Keyword" xml:space="preserve"><value>Title keyword</value></data>
+  <data name="Search" xml:space="preserve"><value>Search</value></data>
+  <data name="Reset" xml:space="preserve"><value>Reset</value></data>
+  <data name="New" xml:space="preserve"><value>New article</value></data>
+  <data name="Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="View" xml:space="preserve"><value>View</value></data>
+  <data name="Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Apply" xml:space="preserve"><value>Apply to selected</value></data>
+  <data name="Pending" xml:space="preserve"><value>Pending review</value></data>
+  <data name="Published" xml:space="preserve"><value>Published</value></data>
+  <data name="Publish" xml:space="preserve"><value>Publish</value></data>
+  <data name="Scheduled" xml:space="preserve"><value>Scheduled</value></data>
+  <data name="Offline" xml:space="preserve"><value>Offline</value></data>
+  <data name="Invalid" xml:space="preserve"><value>Invalid dates</value></data>
+  <data name="Subject" xml:space="preserve"><value>Title</value></data>
+  <data name="Body" xml:space="preserve"><value>Content</value></data>
+  <data name="PostDate" xml:space="preserve"><value>Posted at</value></data>
+  <data name="ModifiedAt" xml:space="preserve"><value>Modified at</value></data>
+  <data name="ModifiedBy" xml:space="preserve"><value>Modified by</value></data>
+  <data name="Begin" xml:space="preserve"><value>Scheduled start</value></data>
+  <data name="End" xml:space="preserve"><value>Scheduled end</value></data>
+  <data name="Save" xml:space="preserve"><value>Save as pending</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Traditional" xml:space="preserve"><value>Traditional Chinese</value></data>
+  <data name="Simplified" xml:space="preserve"><value>Simplified Chinese</value></data>
+  <data name="English" xml:space="preserve"><value>English</value></data>
+  <data name="Attachments" xml:space="preserve"><value>Attachments</value></data>
+  <data name="AddAttachments" xml:space="preserve"><value>Add attachments</value></data>
+  <data name="UploadImage" xml:space="preserve"><value>Upload and insert image</value></data>
+  <data name="Remove" xml:space="preserve"><value>Remove</value></data>
+  <data name="Download" xml:space="preserve"><value>Download</value></data>
+  <data name="NoAttachments" xml:space="preserve"><value>No attachments</value></data>
+  <data name="FileHint" xml:space="preserve"><value>10 MB per file. Executables and scripts are prohibited.</value></data>
+  <data name="ImageHint" xml:space="preserve"><value>JPG, PNG, GIF or WebP, up to 10 MB. Original names are preserved; duplicates are rejected.</value></data>
+  <data name="SaveHint" xml:space="preserve"><value>Saving returns the article to pending and clears publication dates in both tables. Published content is replaced only when published again.</value></data>
+  <data name="CategoryHint" xml:space="preserve"><value>Search includes only the selected category. Articles may use any level.</value></data>
+  <data name="DeleteConfirm" xml:space="preserve"><value>Permanently delete the selected articles, including raw and published attachments? This cannot be undone.</value></data>
+  <data name="StateConfirm" xml:space="preserve"><value>Apply this status to the selected articles?</value></data>
+  <data name="DiscardConfirm" xml:space="preserve"><value>Discard unsaved changes? Uploaded editor images will be retained.</value></data>
+  <data name="SelectArticles" xml:space="preserve"><value>Select at least one article.</value></data>
+  <data name="Saved" xml:space="preserve"><value>Saved as pending.</value></data>
+  <data name="Updated" xml:space="preserve"><value>Operation completed.</value></data>
+  <data name="Loading" xml:space="preserve"><value>Loading…</value></data>
+  <data name="NoRecords" xml:space="preserve"><value>No articles found.</value></data>
+  <data name="KendoMissing" xml:space="preserve"><value>Kendo UI 2026.3.1015 resources are missing. Install the licensed files at the configured local path.</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>The operation failed. Please contact the administrator with the time of the error.</value></data>
+  <data name="ConfigureDatabase" xml:space="preserve"><value>Configure the SQL Server credentials in local settings before loading data.</value></data>
+  <data name="InvalidInput" xml:space="preserve"><value>Invalid request or too many files (maximum 20 per save).</value></data>
+  <data name="CategoryRequired" xml:space="preserve"><value>Select a valid category.</value></data>
+  <data name="InvalidTitle" xml:space="preserve"><value>Traditional Chinese title is required. Titles must be at most 256 characters.</value></data>
+  <data name="InvalidDates" xml:space="preserve"><value>Both dates are required and the end must not precede the start.</value></data>
+  <data name="MultipleCategories" xml:space="preserve"><value>This article has multiple category associations. Resolve the existing associations before saving.</value></data>
+  <data name="InvalidCategories" xml:space="preserve"><value>The category tree has a missing root/parent or a cycle. Please correct the data.</value></data>
+  <data name="DuplicateAttributes" xml:space="preserve"><value>Duplicate attribute names were found for this article. Publishing was cancelled.</value></data>
+  <data name="Conflict" xml:space="preserve"><value>Another user modified this article. Reload it before retrying.</value></data>
+  <data name="NotFound" xml:space="preserve"><value>The article or attachment no longer exists.</value></data>
+  <data name="Unauthenticated" xml:space="preserve"><value>Windows authentication is required.</value></data>
+  <data name="UsernameTooLong" xml:space="preserve"><value>The Windows username must fit the existing varchar(8) identity columns. Contact the administrator.</value></data>
+  <data name="FileSize" xml:space="preserve"><value>Each file must be non-empty and no larger than 10 MB.</value></data>
+  <data name="FileType" xml:space="preserve"><value>This file type is not permitted.</value></data>
+  <data name="InvalidFilename" xml:space="preserve"><value>Invalid filename. Rename the file and retry.</value></data>
+  <data name="ImageType" xml:space="preserve"><value>Only JPG/JPEG, PNG, GIF and WebP image files are allowed.</value></data>
+  <data name="ImageExists" xml:space="preserve"><value>This image name already exists. Rename your file before uploading.</value></data>
+  <data name="PageDisplay" xml:space="preserve"><value>{0}–{1} of {2} articles</value></data>
+  <data name="PageEmpty" xml:space="preserve"><value>No articles</value></data>
+  <data name="PageSize" xml:space="preserve"><value>articles per page</value></data>
+  <data name="Actions" xml:space="preserve"><value>Actions</value></data>
+  <data name="NewFile" xml:space="preserve"><value>New</value></data>
+  <data name="ConnectionHint" xml:space="preserve"><value>Windows authentication · SQL Server</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Required" xml:space="preserve"><value>Required</value></data>
+  <data name="Language" xml:space="preserve"><value>Language</value></data>
+  <data name="SwitchLanguage" xml:space="preserve"><value>Switch</value></data>
+</root>

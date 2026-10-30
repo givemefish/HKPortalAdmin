@@ -1,0 +1,39 @@
+@using System.Globalization
+<!DOCTYPE html>
+<html lang="@CultureInfo.CurrentUICulture.Name">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@L["Articles"] · @L["AppTitle"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/kendo/2026.3.1015/styles/default-main.css" />
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="portal-header">
+        <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between gap-3">
+            <a class="portal-brand" asp-controller="Articles" asp-action="Index"><span class="brand-mark">HK</span> @L["AppTitle"]</a>
+            <div class="d-flex align-items-center gap-3">
+                <span class="user-name">@User.Identity?.Name</span>
+                <form asp-controller="Culture" asp-action="Set" method="post" class="d-flex gap-2">
+                    <input type="hidden" name="returnUrl" value="@Url.Action("Index", "Articles")" />
+                    <select name="culture" class="form-select form-select-sm" aria-label="@L["Language"]">
+                        @foreach (var language in new[] { ("zh-TW", "繁體中文"), ("zh-CN", "简体中文"), ("en-US", "English") })
+                        {
+                            <option value="@language.Item1" selected="@(CultureInfo.CurrentUICulture.Name == language.Item1)">@language.Item2</option>
+                        }
+                    </select>
+                    <button type="submit" class="btn btn-sm btn-outline-light">@L["SwitchLanguage"]</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid portal-main">@RenderBody()</main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/kendo/2026.3.1015/js/kendo.all.min.js"></script>
+    <script src="~/lib/kendo/2026.3.1015/js/cultures/kendo.culture.@(CultureInfo.CurrentUICulture.Name).min.js"></script>
+    <script src="~/lib/kendo/2026.3.1015/js/messages/kendo.messages.@(CultureInfo.CurrentUICulture.Name).min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

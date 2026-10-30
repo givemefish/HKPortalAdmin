@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>HK Portal 管理中心</value></data>
+  <data name="Articles" xml:space="preserve"><value>文章管理</value></data>
+  <data name="Category" xml:space="preserve"><value>文章分类</value></data>
+  <data name="AllCategories" xml:space="preserve"><value>全部分类</value></data>
+  <data name="Status" xml:space="preserve"><value>稿件状态</value></data>
+  <data name="AllStatuses" xml:space="preserve"><value>全部状态</value></data>
+  <data name="Keyword" xml:space="preserve"><value>标题关键字</value></data>
+  <data name="Search" xml:space="preserve"><value>查询</value></data>
+  <data name="Reset" xml:space="preserve"><value>重置</value></data>
+  <data name="New" xml:space="preserve"><value>新增文章</value></data>
+  <data name="Edit" xml:space="preserve"><value>编辑</value></data>
+  <data name="View" xml:space="preserve"><value>查看</value></data>
+  <data name="Delete" xml:space="preserve"><value>删除</value></data>
+  <data name="Apply" xml:space="preserve"><value>应用至选中文章</value></data>
+  <data name="Pending" xml:space="preserve"><value>待审</value></data>
+  <data name="Published" xml:space="preserve"><value>上架</value></data>
+  <data name="Publish" xml:space="preserve"><value>上架</value></data>
+  <data name="Scheduled" xml:space="preserve"><value>预约上架</value></data>
+  <data name="Offline" xml:space="preserve"><value>下架</value></data>
+  <data name="Invalid" xml:space="preserve"><value>日期异常</value></data>
+  <data name="Subject" xml:space="preserve"><value>标题</value></data>
+  <data name="Body" xml:space="preserve"><value>正文</value></data>
+  <data name="PostDate" xml:space="preserve"><value>发布时间</value></data>
+  <data name="ModifiedAt" xml:space="preserve"><value>修改时间</value></data>
+  <data name="ModifiedBy" xml:space="preserve"><value>修改人员</value></data>
+  <data name="Begin" xml:space="preserve"><value>预定开始时间</value></data>
+  <data name="End" xml:space="preserve"><value>预定结束时间</value></data>
+  <data name="Save" xml:space="preserve"><value>保存为待审</value></data>
+  <data name="Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Traditional" xml:space="preserve"><value>繁体中文</value></data>
+  <data name="Simplified" xml:space="preserve"><value>简体中文</value></data>
+  <data name="English" xml:space="preserve"><value>英文</value></data>
+  <data name="Attachments" xml:space="preserve"><value>附件</value></data>
+  <data name="AddAttachments" xml:space="preserve"><value>新增附件</value></data>
+  <data name="UploadImage" xml:space="preserve"><value>上传并插入图片</value></data>
+  <data name="Remove" xml:space="preserve"><value>移除</value></data>
+  <data name="Download" xml:space="preserve"><value>下载</value></data>
+  <data name="NoAttachments" xml:space="preserve"><value>暂无附件</value></data>
+  <data name="FileHint" xml:space="preserve"><value>每个文件上限 10 MB，不接受执行文件及脚本。</value></data>
+  <data name="ImageHint" xml:space="preserve"><value>JPG、PNG、GIF、WebP，上限 10 MB。保留原文件名，同名须更名后重传。</value></data>
+  <data name="SaveHint" xml:space="preserve"><value>保存后转为待审，并清空 Raw 与正式表的发布日期；再次上架才同步更新正式内容。</value></data>
+  <data name="CategoryHint" xml:space="preserve"><value>查询只包含所选分类；文章可选任意层级。</value></data>
+  <data name="DeleteConfirm" xml:space="preserve"><value>确定永久删除所选文章及 Raw／正式附件？此操作无法恢复。</value></data>
+  <data name="StateConfirm" xml:space="preserve"><value>确定更新所选文章的状态？</value></data>
+  <data name="DiscardConfirm" xml:space="preserve"><value>放弃尚未保存的更改？已上传的编辑器图片仍会保留。</value></data>
+  <data name="SelectArticles" xml:space="preserve"><value>请先选中文章。</value></data>
+  <data name="Saved" xml:space="preserve"><value>已保存为待审。</value></data>
+  <data name="Updated" xml:space="preserve"><value>操作完成。</value></data>
+  <data name="Loading" xml:space="preserve"><value>加载中…</value></data>
+  <data name="NoRecords" xml:space="preserve"><value>没有符合条件的文章。</value></data>
+  <data name="KendoMissing" xml:space="preserve"><value>尚未加载 Kendo UI 2026.3.1015，请将授权资源放入指定本机目录。</value></data>
+  <data name="UnexpectedError" xml:space="preserve"><value>操作失败，请提供发生时间给管理员查询记录。</value></data>
+  <data name="ConfigureDatabase" xml:space="preserve"><value>请先在本机设置填入 SQL Server 账号密码，再加载数据。</value></data>
+  <data name="InvalidInput" xml:space="preserve"><value>输入数据无效，或附件数量超过单次上限 20 个。</value></data>
+  <data name="CategoryRequired" xml:space="preserve"><value>请选择有效的文章分类。</value></data>
+  <data name="InvalidTitle" xml:space="preserve"><value>繁体中文标题为必填，各语系标题不可超过 256 字。</value></data>
+  <data name="InvalidDates" xml:space="preserve"><value>开始与结束时间为必填，结束时间不得早于开始时间。</value></data>
+  <data name="MultipleCategories" xml:space="preserve"><value>此文章已有多个分类关联，请先确认现有数据后再编辑，系统不会自动删除关联。</value></data>
+  <data name="InvalidCategories" xml:space="preserve"><value>分类数据缺少根节点／父节点或存在循环，请先修正数据。</value></data>
+  <data name="DuplicateAttributes" xml:space="preserve"><value>文章属性名称重复，已取消上架，请先修正数据。</value></data>
+  <data name="Conflict" xml:space="preserve"><value>数据已被其他用户修改，请重新加载后再操作。</value></data>
+  <data name="NotFound" xml:space="preserve"><value>文章或附件不存在。</value></data>
+  <data name="Unauthenticated" xml:space="preserve"><value>请使用 Windows 验证登录。</value></data>
+  <data name="UsernameTooLong" xml:space="preserve"><value>Windows 账号须符合现有 varchar(8) 字段，请联系管理员确认；系统不会截断账号。</value></data>
+  <data name="FileSize" xml:space="preserve"><value>文件不可为空，且每个文件不得超过 10 MB。</value></data>
+  <data name="FileType" xml:space="preserve"><value>不允许上传此类型文件。</value></data>
+  <data name="InvalidFilename" xml:space="preserve"><value>文件名无效，请更名后重新上传。</value></data>
+  <data name="ImageType" xml:space="preserve"><value>只接受 JPG／JPEG、PNG、GIF、WebP 图片，且文件格式须与扩展名相符。</value></data>
+  <data name="ImageExists" xml:space="preserve"><value>已有同名图片，请自行更名后重新上传；不会覆盖现有图片。</value></data>
+  <data name="PageDisplay" xml:space="preserve"><value>第 {0}–{1} 条，共 {2} 条</value></data>
+  <data name="PageEmpty" xml:space="preserve"><value>没有文章</value></data>
+  <data name="PageSize" xml:space="preserve"><value>条／页</value></data>
+  <data name="Actions" xml:space="preserve"><value>操作</value></data>
+  <data name="NewFile" xml:space="preserve"><value>新增</value></data>
+  <data name="ConnectionHint" xml:space="preserve"><value>Windows 验证 · SQL Server</value></data>
+  <data name="Close" xml:space="preserve"><value>关闭</value></data>
+  <data name="Required" xml:space="preserve"><value>必填</value></data>
+  <data name="Language" xml:space="preserve"><value>界面语言</value></data>
+  <data name="SwitchLanguage" xml:space="preserve"><value>切换</value></data>
+</root>

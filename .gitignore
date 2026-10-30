@@ -1,0 +1,12 @@
+[Bb]in/
+[Oo]bj/
+.tools/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+appsettings.Local.json
+wwwroot/Content/User/Image/*
+!wwwroot/Content/User/Image/.gitkeep
+wwwroot/lib/kendo/2026.3.1015/telerik-license.txt

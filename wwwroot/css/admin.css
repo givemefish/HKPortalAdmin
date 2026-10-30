@@ -1,0 +1,21 @@
+:root{--portal-blue:#164e72;--portal-ink:#182b3a;--portal-muted:#687a89}
+body{background:#f3f6f9;color:var(--portal-ink);font-family:system-ui,"Microsoft JhengHei",sans-serif}
+.portal-header{background:linear-gradient(110deg,#153348,#205777);padding:19px 16px;color:#fff;border-bottom:4px solid #65b3b5}
+.portal-brand{color:#fff;text-decoration:none;font-size:1.15rem;font-weight:600;display:flex;align-items:center;gap:14px}
+.portal-brand:hover{color:#fff}.brand-mark{border:1px solid #94b7ca;border-radius:6px;padding:6px 8px;letter-spacing:2px}
+.user-name{font-size:.85rem;color:#d8e5ee}.portal-main{padding:32px;max-width:1800px;margin:auto}
+.eyebrow{letter-spacing:2px;font-size:.7rem;color:var(--portal-muted);margin-bottom:9px}h1{font-size:1.8rem;font-weight:650;margin:0}
+.connection-label{font-size:.8rem;color:var(--portal-muted)}.card{border:1px solid #dce5ec;box-shadow:0 3px 15px #20384b05;border-radius:10px}
+.filter-card .card-body{padding:22px}.form-label{font-size:.86rem;font-weight:600}.btn-primary{background:#17638b;border-color:#17638b}
+.list-card{overflow:hidden}.list-card .card-header{background:white;border-bottom:1px solid #e1e8ee;padding:18px 20px}
+.k-grid{border:0}.k-grid-header{font-weight:600}.k-grid td{vertical-align:middle}.k-window-content{padding:22px}
+.status-badge{display:inline-block;padding:4px 10px;border-radius:20px;font-size:.78rem;white-space:nowrap}
+.status-Pending{background:#fff3cd;color:#745700}.status-Published{background:#d9eee4;color:#246449}.status-Scheduled{background:#dfebff;color:#285b9c}
+.status-Offline{background:#e9edf0;color:#64717d}.status-Invalid{background:#f9d9de;color:#8e2434}
+.row-actions{display:flex;gap:6px;flex-wrap:wrap}.row-actions .btn{font-size:.78rem}.state-select{max-width:125px;font-size:.78rem}
+.upload-label{position:relative;overflow:hidden}.upload-label input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.attachment-list .list-group-item{font-size:.85rem;display:flex;gap:12px;justify-content:space-between;align-items:center}
+.attachment-list .file-name{overflow-wrap:anywhere}.editor-footer{border-top:1px solid #e4e9ef;padding-top:18px;position:sticky;bottom:-22px;background:#fff;z-index:2;padding-bottom:12px}
+.save-hint{max-width:620px;font-size:.78rem}.k-tabstrip-content{padding:18px}.k-editor{min-height:330px}.k-window{max-width:calc(100vw - 32px)}
+.k-window-content{max-height:calc(100vh - 110px);overflow:auto}.form-text{font-size:.78rem}.k-grid .k-table-td{padding:12px}
+@media(max-width:768px){.portal-main{padding:20px 12px}.connection-label{display:none}.portal-header{padding:14px 0}.portal-brand{font-size:1rem}.k-window-content{padding:12px}.editor-footer{bottom:-12px}}

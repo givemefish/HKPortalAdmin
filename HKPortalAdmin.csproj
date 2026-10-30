@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>HKPortalAdmin-Local-Configuration</UserSecretsId>
+    <DefaultItemExcludes>$(DefaultItemExcludes);.tools/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.79" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="10.0.14" />
+    <PackageReference Include="HtmlSanitizer" Version="9.2.1039" />
+    <!-- Override the vulnerable transitive version brought in by SqlClient. -->
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="appsettings.Local.json" />
+    <Content Remove="wwwroot/lib/kendo/**/*.md" />
+  </ItemGroup>
+</Project>
